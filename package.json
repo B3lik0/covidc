@@ -1,0 +1,17 @@
+{
+  "name": "cliente-covid",
+  "version": "1.0.0",
+  "description": "cliente para consumir api de covid",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev"
+  },
+  "author": "b3lik0",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "vue": "^2.6.11",
+    "vue-cli": "^2.9.6"
+  }
+}
